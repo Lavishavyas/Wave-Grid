@@ -1,0 +1,83 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+  text-align: left;
+  width: 100%;
+  max-width: 900px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  color: #aaa;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.grid-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.assignment-details {
+  flex-basis: 400px;
+  text-align: left;
+  line-height: 1.6;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+}
+
+.assignment-details ol {
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+.tip-box {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+}
+
+.tip-box p {
+  margin: 0;
+  color: #bbb;
+}
+
+.tip-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 0;
+}
+
+.tip-box ul li {
+  margin-bottom: 5px;
+  color: #999;
+}

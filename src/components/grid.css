@@ -1,0 +1,16 @@
+/* src/components/Grid.css */
+.grid-container {
+  display: grid;
+  gap: 2px;
+  background-color: #1a1a1a;
+  padding: 10px;
+  border: 1px solid #333;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+}
+
+.grid-square {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #222;
+  transition: background-color 0.2s ease-out;
+}
