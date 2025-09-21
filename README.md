@@ -2,7 +2,7 @@
 
 This is a dynamic, front-end web application that showcases a responsive grid of squares with a mesmerizing, bouncing wave effect. The project was built using **React.js** to meet the requirements of a full-stack developer assignment. 💻
 
----
+
 
 ### Key Features and Functionality 🚀
 
